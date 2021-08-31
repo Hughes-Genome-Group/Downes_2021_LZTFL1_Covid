@@ -1,0 +1,51 @@
+#
+# This is the Snakemake configuration file that specifies paths and 
+# and options for the mapping pipeline
+#
+
+{
+    # py2 is a hack so that python2 scripts can be called
+    # by snakemake (which is written in python3). The value should
+    # be a command to do whatever is needed to setup a python2 environment and
+    # call the python2 interpreter. Depending on your system configuration,
+    # this might involve setting the PATH environment variable or
+    # just calling python2
+    "py2" : "python2 ",
+
+    # WASP directory containing scripts
+    "wasp_dir" : "/stopgap/fgenomics/rschwess/tools/WASP",
+
+    # Utitlity directory for bias test
+    "utility_dir" : "/stopgap/fgenomics/rschwess/scripts/RonsUtilityBox",
+
+    # directory to write all output data files to
+    "output_dir" :  "/stopgap/covidgwas/rschwess/allelic_bias/wasp_pipe",
+
+    # location of chromInfo file containing chromosome names and lengths
+    # (can be downloaded from UCSC genome browser)
+    "chrom_info" : "/stopgap/fgenomics/reference_genomes/hg38.chrom.sizes",
+
+    # directory to read VCF files from (used to write SNP input files)
+    "vcf_dir" : "/stopgap/covidgwas/rschwess/allelic_bias/wasp_pipe/snps",
+
+    # OLD way: directory to write SNP plain text input files to
+    "snp_dir" : "/stopgap/covidgwas/rschwess/allelic_bias/wasp_pipe/snps",
+    
+    # snps to test for allelix imbalance in bed like format with ref and variant column in that order
+    "test_snps" : "/stopgap/covidgwas/rschwess/allelic_bias/wasp_pipe/snps/covid_gwas_snp_to_test.bed",
+
+    # directory to write SNP HDF5 input files to
+    snp_h5_dir : "/stopgap/fgenomics/rschwess/ctcf_project/allelic_imbalance/wasp_pipe_gwas_only/snp_files",
+
+    # path to samtools
+    "samtools" : "samtools",
+
+    # path to bowtie2 aligner
+    "bowtie2" : "bowtie2",
+
+    # prefix for bowtie2 reference genome index
+    "bowtie2_index" : "/stopgap/databank/igenomes/Homo_sapiens/UCSC/hg38/Sequence/Bowtie2Index/genome",
+
+    # sample file containing sample names and paths to fastq files
+    "sample_file" : "/stopgap/covidgwas/rschwess/allelic_bias/wasp_pipe/sample_paths.txt"
+}

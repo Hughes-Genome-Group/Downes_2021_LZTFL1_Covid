@@ -1,0 +1,12 @@
+__default__:
+  time: "0-08:00:00"
+  partition: "batch"
+  nodes: 1
+  ntasks: 1
+  job-name: "{rule}"
+  output: "slurm_logs/slurm-%j-%x.out"
+  error: "slurm_logs/slurm-%j-%x.err"
+map_bowtie2_single_end1:
+  ntasks: 4
+map_bowtie2_single_end2:
+  ntasks: 4
