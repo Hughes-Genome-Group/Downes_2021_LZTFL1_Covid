@@ -1,0 +1,61 @@
+
+Linkage Analysis
+LD Proxy Webtool: https://ldlink.nci.nih.gov/?tab=ldproxy
+LD Matrix Webtool: https://ldlink.nci.nih.gov/?tab=ldmatrix
+
+Micro RNA binding
+TargetScan Webtool: http://www.targetscan.org/vert_71/
+miRdSNP Webtool: http://mirdsnp.ccr.buffalo.edu/browse-genes.php
+MicroSNiPer Webtool: http://vm24141.virt.gwdg.de/services/microsniper/index.php
+
+Splicing
+SpliceAI Repository: https://github.com/Illumina/SpliceAI
+GTex Database:
+
+Chromatin accessibility and transcription factor binding prediction
+DeepHaem repositoty: https://github.com/rschwess/deepHaem
+DeepHaem runcode:
+
+Sasquatch Webtool: https://apps.molbiol.ox.ac.uk/sasquatch/cgi-bin/foot.cgi
+
+Allelic bias analysis
+Read count: 
+
+WASP:
+WASP runshell:
+
+3C analysis
+Domain inferal for probe design: http://3dgenome.fsm.northwestern.edu/index.html
+
+CCSeqBasic5: https://github.com/Hughes-Genome-Group/CCseqBasicS
+CS5 run shell: 
+Viewpoints:
+
+CaptureCompare: github.com/Hughes-Genome-Group/CaptureCompare
+CapCompare run shell: 
+CapCompare parameters:
+
+MCC analysis codes: https://process.innovation.ox.ac.uk/software/p/16529a/micro-capture-c-academic/1. 
+MCC runshell:
+
+LanceOtron: https://github.com/Hughes-Genome-Group/Lanceotron-User-Docs
+LanceOtron run code: 
+
+Expression analysis
+GTeEx portal:https://www.gtexportal.org/home/testyourown
+
+Colocalisation analysis
+Coloc: https://github.com/chr1swallace/coloc
+Run shell:
+
+Editing ICE analysis
+Synthego webtool: https://ice.synthego.com/#/
+
+ChIP/ATAC-seq mapping
+NGseqBasic: https://github.com/Hughes-Genome-Group/NGseqBasic
+
+Spatial Transcriptomics
+WGCNA: https://rdrr.io/cran/WGCNA/
+Deconvolution: https://rdrr.io/bioc/SpatialDecon/src/R/package.R
+Runshell:
+
