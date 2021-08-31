@@ -23,10 +23,10 @@ Splicing quantitative trait loci (sQTLs) were identified in the [GTEx Database](
 
 [Sasquatch](https://apps.molbiol.ox.ac.uk/sasquatch/cgi-bin/foot.cgi) was run using default Workflow 3 settings (7-mer, propensity-based [Erythroid], exhaustive) on the web interface.
 
+Analysis scripts for element accessibility are in *enhancer_accessibility*
+
 
 **Allelic bias analysis**
-
-Read count: 
 
 [WASP](https://github.com/bmvdgeijn/WASP) used an adapted Snakemake pipeline. More information can be found in the CRAN package [documentation](https://cran.r-project.org/web/packages/coloc/index.html). Adapted scripts are in: *wasp_pipe_for_covid_gwas*
 
@@ -35,18 +35,12 @@ Read count:
 
 Domain inferral for probe design used the [3D genome browswer](http://3dgenome.fsm.northwestern.edu/index.html) and probes were designed using [Capsequm2](https://apps.molbiol.ox.ac.uk/CaptureC/cgi-bin/CapSequm.cgi).
 
-NuTi/NG Capture-C replicate data were first processed with [CCSeqBasic5](https://github.com/Hughes-Genome-Group/CCseqBasicS) before being combined with [CaptureCompare](https://github.com/Hughes-Genome-Group/CaptureCompare).
+NuTi/NG Capture-C replicate data were first processed with [CCSeqBasic5](https://github.com/Hughes-Genome-Group/CCseqBasicS) before being combined with [CaptureCompare](https://github.com/Hughes-Genome-Group/CaptureCompare). Run scripts and custom CaptureCompare scripts are in *capture_c_scripts*
 
-CapSeq run shell: *CapSeq.run*
-CapSeq Viewpoints: *CapSeq_viewpoints.txt*
-CapCompare run shell: *CapCom.run*
-CapCompare parameters: *CapCom_parameters.txt*
 
-MCC analysis codes are available for [academic use](https://process.innovation.ox.ac.uk/software/p/16529a/micro-capture-c-academic/1). 
-MCC runshell:
+MCC analysis codes are available for [academic use](https://process.innovation.ox.ac.uk/software/p/16529a/micro-capture-c-academic/1) with input files in *mcc_scripts*.
 
 [LanceOtron](https://github.com/Hughes-Genome-Group/Lanceotron-User-Docs)
-LanceOtron run code: 
 
 **Expression analysis**
 
