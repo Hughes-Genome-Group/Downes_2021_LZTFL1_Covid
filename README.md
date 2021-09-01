@@ -40,7 +40,7 @@ NuTi/NG Capture-C replicate data were first processed with [CCSeqBasic5](https:/
 
 MCC analysis codes are available for [academic use](https://process.innovation.ox.ac.uk/software/p/16529a/micro-capture-c-academic/1) with input files in *mcc_scripts*.
 
-[LanceOtron](https://github.com/Hughes-Genome-Group/Lanceotron-User-Docs)
+[LanceOtron](https://github.com/Hughes-Genome-Group/Lanceotron-User-Docs) commanfs can be found in *LanceOtron_MCC.py*
 
 **Expression analysis**
 
