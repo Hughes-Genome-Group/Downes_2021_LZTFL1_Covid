@@ -21,7 +21,7 @@ Splicing quantitative trait loci (sQTLs) were identified in the [GTEx Database](
 
 [deepHaem](https://github.com/rschwess/deepHaem) was implemented using *run_deephaem_4k_predictions.sh*
 
-[Sasquatch](https://apps.molbiol.ox.ac.uk/sasquatch/cgi-bin/foot.cgi) was run using default Workflow 3 settings (7-mer, propensity-based [Erythroid], exhaustive) on the web interface.
+[Sasquatch](https://apps.molbiol.ox.ac.uk/sasquatch/cgi-bin/foot.cgi) was run using default Workflow 3 settings (7-mer, propensity-based [Erythroid], exhaustive) on the web interface. The rs17713054 allele specific accessibility profiles were generated with *sasquatch_plot_RPTC_rs17713054.R*.
 
 Analysis scripts for element accessibility are in *enhancer_accessibility*
 
