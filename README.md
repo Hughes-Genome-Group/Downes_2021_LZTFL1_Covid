@@ -35,7 +35,7 @@ Analysis with [WASP](https://github.com/bmvdgeijn/WASP) used an adapted Snakemak
 
 Domain inferral for probe design used the [3D genome browser](http://3dgenome.fsm.northwestern.edu/index.html) and probes were designed using [Capsequm2](https://apps.molbiol.ox.ac.uk/CaptureC/cgi-bin/CapSequm.cgi).
 
-NuTi/NG Capture-C replicate data were first processed with [CCSeqBasic5](https://github.com/Hughes-Genome-Group/CCseqBasicS) before being combined with [CaptureCompare](https://github.com/Hughes-Genome-Group/CaptureCompare). Run scripts and custom CaptureCompare scripts are in *capture_c_scripts*
+NuTi/NG Capture-C replicate data were first processed with [CCSeqBasicS](https://github.com/Hughes-Genome-Group/CCseqBasicS) before being combined with [CaptureCompare](https://github.com/Hughes-Genome-Group/CaptureCompare). Run scripts and custom CaptureCompare scripts are in *capture_c_scripts*
 
 
 MCC analysis codes are available for [academic use](https://process.innovation.ox.ac.uk/software/p/16529a/micro-capture-c-academic/1) with input files in *mcc_scripts*.
